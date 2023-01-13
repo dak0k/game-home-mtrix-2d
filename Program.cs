@@ -44,7 +44,7 @@ if (inputCmd == "up"  )
 }
 else if(inputCmd == "down"){
 
-   if(currentY <= 1){
+   if(currentY <= 2){
    SetPosition(currentY + 1 , currentX );
     ShowRooms(); 
  
